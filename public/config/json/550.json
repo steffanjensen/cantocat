@@ -1,31 +1,36 @@
 {
-  "name": "CryptoMan #550",
-  "description": "3.333 Generated CryptoMan",
-  "image": "ipfs://QmeCE2nHW6q3aZ3ybo7qAwpr5KWVqTyLmN7GpXurgDWPk7/550.png",
-  "dna": "7a1fb9cc5ef7fa335f81ac2b8b4c6a46c6969d80",
+  "name": "8Bit Cats #550",
+  "description": "A collection of 8Bit Cats",
+  "image": "ipfs://QmRJWYg2zmuHPwvaBsXE3jt48XTC3nyTJKrDtKffWrute7/550.png",
+  "dna": "dca0d4ac7d1a35a0235180137f450f8191b759a6",
   "edition": 550,
-  "date": 1641610311832,
+  "date": 1644783984846,
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "green"
+      "trait_type": "Background",
+      "value": "Pink",
+      "frequency": "11.59%"
     },
     {
-      "trait_type": "color",
-      "value": "man"
+      "trait_type": "Body",
+      "value": "Pink",
+      "frequency": "13.78%"
     },
     {
-      "trait_type": "hair",
-      "value": "greenlight"
+      "trait_type": "Clothing",
+      "value": "Duck",
+      "frequency": "3.29%"
     },
     {
-      "trait_type": "eyes",
-      "value": "brown"
+      "trait_type": "Face",
+      "value": "Glasses",
+      "frequency": "13.54%"
     },
     {
-      "trait_type": "glasses",
-      "value": "none"
+      "trait_type": "Hats",
+      "value": "Orange Beanie",
+      "frequency": "5.49%"
     }
   ],
-  "compiler": "CryptoMan"
+  "compiler": "8Bit Collection"
 }

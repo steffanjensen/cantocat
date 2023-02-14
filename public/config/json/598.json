@@ -1,31 +1,36 @@
 {
-  "name": "CryptoMan #598",
-  "description": "3.333 Generated CryptoMan",
-  "image": "ipfs://QmeCE2nHW6q3aZ3ybo7qAwpr5KWVqTyLmN7GpXurgDWPk7/598.png",
-  "dna": "af2323d91e7b13a16f256aeba61e53550130f288",
+  "name": "8Bit Cats #598",
+  "description": "A collection of 8Bit Cats",
+  "image": "ipfs://QmRJWYg2zmuHPwvaBsXE3jt48XTC3nyTJKrDtKffWrute7/598.png",
+  "dna": "2e221c84e673bb28ffcc32ac17ee8eb7b6c15901",
   "edition": 598,
-  "date": 1641610319980,
+  "date": 1644783988601,
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "Red"
+      "trait_type": "Background",
+      "value": "Night",
+      "frequency": "15.85%"
     },
     {
-      "trait_type": "color",
-      "value": "man"
+      "trait_type": "Body",
+      "value": "Purple",
+      "frequency": "13.90%"
     },
     {
-      "trait_type": "hair",
-      "value": "bluelight"
+      "trait_type": "Clothing",
+      "value": "Astronaut",
+      "frequency": "6.10%"
     },
     {
-      "trait_type": "eyes",
-      "value": "orange"
+      "trait_type": "Face",
+      "value": "Love",
+      "frequency": "9.51%"
     },
     {
-      "trait_type": "glasses",
-      "value": "orange"
+      "trait_type": "Hats",
+      "value": "Cool Captain",
+      "frequency": "3.78%"
     }
   ],
-  "compiler": "CryptoMan"
+  "compiler": "8Bit Collection"
 }

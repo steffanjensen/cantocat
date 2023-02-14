@@ -1,31 +1,36 @@
 {
-  "name": "CryptoMan #403",
-  "description": "3.333 Generated CryptoMan",
-  "image": "ipfs://QmeCE2nHW6q3aZ3ybo7qAwpr5KWVqTyLmN7GpXurgDWPk7/403.png",
-  "dna": "0a1d71caff27682a1746938d27e6ba66cda69ed5",
+  "name": "8Bit Cats #403",
+  "description": "A collection of 8Bit Cats",
+  "image": "ipfs://QmRJWYg2zmuHPwvaBsXE3jt48XTC3nyTJKrDtKffWrute7/403.png",
+  "dna": "2784a5acf975c670ecabe5c884b0f57ea59ef1ca",
   "edition": 403,
-  "date": 1641610286863,
+  "date": 1644783973299,
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "day"
+      "trait_type": "Background",
+      "value": "Night",
+      "frequency": "15.85%"
     },
     {
-      "trait_type": "color",
-      "value": "black"
+      "trait_type": "Body",
+      "value": "Purple",
+      "frequency": "13.90%"
     },
     {
-      "trait_type": "hair",
-      "value": "pink"
+      "trait_type": "Clothing",
+      "value": "Cute Fight Shirt",
+      "frequency": "5.12%"
     },
     {
-      "trait_type": "eyes",
-      "value": "greenlight"
+      "trait_type": "Face",
+      "value": "Cheeky",
+      "frequency": "19.88%"
     },
     {
-      "trait_type": "glasses",
-      "value": "none"
+      "trait_type": "Hats",
+      "value": "Captain",
+      "frequency": "6.59%"
     }
   ],
-  "compiler": "CryptoMan"
+  "compiler": "8Bit Collection"
 }

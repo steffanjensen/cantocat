@@ -1,31 +1,36 @@
 {
-  "name": "CryptoMan #119",
-  "description": "3.333 Generated CryptoMan",
-  "image": "ipfs://QmeCE2nHW6q3aZ3ybo7qAwpr5KWVqTyLmN7GpXurgDWPk7/119.png",
-  "dna": "ae9e990950ffb5d48f4daa138a0e9cacc72d00eb",
+  "name": "8Bit Cats #119",
+  "description": "A collection of 8Bit Cats",
+  "image": "ipfs://QmRJWYg2zmuHPwvaBsXE3jt48XTC3nyTJKrDtKffWrute7/119.png",
+  "dna": "e5a78c19cd89090ff7ce146b0751ede0ec855014",
   "edition": 119,
-  "date": 1641610238687,
+  "date": 1644783950974,
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "Red"
+      "trait_type": "Background",
+      "value": "Orange",
+      "frequency": "8.90%"
     },
     {
-      "trait_type": "color",
-      "value": "man"
+      "trait_type": "Body",
+      "value": "White",
+      "frequency": "13.54%"
     },
     {
-      "trait_type": "hair",
-      "value": "greenlight"
+      "trait_type": "Clothing",
+      "value": "Duck",
+      "frequency": "3.29%"
     },
     {
-      "trait_type": "eyes",
-      "value": "greendark"
+      "trait_type": "Face",
+      "value": "Cheeky",
+      "frequency": "19.88%"
     },
     {
-      "trait_type": "glasses",
-      "value": "none"
+      "trait_type": "Hats",
+      "value": "Bucket Hat",
+      "frequency": "7.68%"
     }
   ],
-  "compiler": "CryptoMan"
+  "compiler": "8Bit Collection"
 }

@@ -1,31 +1,36 @@
 {
-  "name": "CryptoMan #19",
-  "description": "3.333 Generated CryptoMan",
-  "image": "ipfs://QmeCE2nHW6q3aZ3ybo7qAwpr5KWVqTyLmN7GpXurgDWPk7/19.png",
-  "dna": "855a170b7d91720d941ac8a0d33c7b54b52edae2",
+  "name": "8Bit Cats #19",
+  "description": "A collection of 8Bit Cats",
+  "image": "ipfs://QmRJWYg2zmuHPwvaBsXE3jt48XTC3nyTJKrDtKffWrute7/19.png",
+  "dna": "fdedcb60c1df41bed71b2dc8d9279103e944a066",
   "edition": 19,
-  "date": 1641610221727,
+  "date": 1644783943111,
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "Blue"
+      "trait_type": "Background",
+      "value": "Skynight",
+      "frequency": "14.02%"
     },
     {
-      "trait_type": "color",
-      "value": "man"
+      "trait_type": "Body",
+      "value": "Red",
+      "frequency": "11.71%"
     },
     {
-      "trait_type": "hair",
-      "value": "blue"
+      "trait_type": "Clothing",
+      "value": "Duck",
+      "frequency": "3.29%"
     },
     {
-      "trait_type": "eyes",
-      "value": "bluelight"
+      "trait_type": "Face",
+      "value": "Glasses",
+      "frequency": "13.54%"
     },
     {
-      "trait_type": "glasses",
-      "value": "none"
+      "trait_type": "Hats",
+      "value": "Ice Cream",
+      "frequency": "3.17%"
     }
   ],
-  "compiler": "CryptoMan"
+  "compiler": "8Bit Collection"
 }

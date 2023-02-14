@@ -1,31 +1,36 @@
 {
-  "name": "CryptoMan #237",
-  "description": "3.333 Generated CryptoMan",
-  "image": "ipfs://QmeCE2nHW6q3aZ3ybo7qAwpr5KWVqTyLmN7GpXurgDWPk7/237.png",
-  "dna": "c87b9f8789f2c79f9b250e098fc6cb7947b43adc",
+  "name": "8Bit Cats #237",
+  "description": "A collection of 8Bit Cats",
+  "image": "ipfs://QmRJWYg2zmuHPwvaBsXE3jt48XTC3nyTJKrDtKffWrute7/237.png",
+  "dna": "07221396d6ea10be6868ae1f98c2f58a18153129",
   "edition": 237,
-  "date": 1641610258738,
+  "date": 1644783960220,
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "day"
+      "trait_type": "Background",
+      "value": "Green",
+      "frequency": "14.39%"
     },
     {
-      "trait_type": "color",
-      "value": "man"
+      "trait_type": "Body",
+      "value": "Purple",
+      "frequency": "13.90%"
     },
     {
-      "trait_type": "hair",
-      "value": "greenlight"
+      "trait_type": "Clothing",
+      "value": "Hoodie",
+      "frequency": "12.80%"
     },
     {
-      "trait_type": "eyes",
-      "value": "brown"
+      "trait_type": "Face",
+      "value": "Love",
+      "frequency": "9.51%"
     },
     {
-      "trait_type": "glasses",
-      "value": "Blue"
+      "trait_type": "Hats",
+      "value": "Fedora",
+      "frequency": "5.37%"
     }
   ],
-  "compiler": "CryptoMan"
+  "compiler": "8Bit Collection"
 }

@@ -1,31 +1,36 @@
 {
-  "name": "CryptoMan #818",
-  "description": "3.333 Generated CryptoMan",
-  "image": "ipfs://QmeCE2nHW6q3aZ3ybo7qAwpr5KWVqTyLmN7GpXurgDWPk7/818.png",
-  "dna": "3e16f65725ceb8f58409c840cc7a43de6403237f",
+  "name": "8Bit Cats #818",
+  "description": "A collection of 8Bit Cats",
+  "image": "ipfs://QmRJWYg2zmuHPwvaBsXE3jt48XTC3nyTJKrDtKffWrute7/818.png",
+  "dna": "eb2cd116e0f6739bbd3d1b8e058c54e444d719c0",
   "edition": 818,
-  "date": 1641610357206,
+  "date": 1644784005877,
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "Blue"
+      "trait_type": "Background",
+      "value": "Night",
+      "frequency": "15.85%"
     },
     {
-      "trait_type": "color",
-      "value": "brown"
+      "trait_type": "Body",
+      "value": "Red",
+      "frequency": "11.71%"
     },
     {
-      "trait_type": "hair",
-      "value": "red"
+      "trait_type": "Clothing",
+      "value": "Suit",
+      "frequency": "12.44%"
     },
     {
-      "trait_type": "eyes",
-      "value": "greenlight"
+      "trait_type": "Face",
+      "value": "Relaxed II",
+      "frequency": "15.12%"
     },
     {
-      "trait_type": "glasses",
-      "value": "Blue"
+      "trait_type": "Hats",
+      "value": "Beanie",
+      "frequency": "11.10%"
     }
   ],
-  "compiler": "CryptoMan"
+  "compiler": "8Bit Collection"
 }

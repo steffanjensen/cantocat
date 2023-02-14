@@ -1,31 +1,36 @@
 {
-  "name": "CryptoMan #689",
-  "description": "3.333 Generated CryptoMan",
-  "image": "ipfs://QmeCE2nHW6q3aZ3ybo7qAwpr5KWVqTyLmN7GpXurgDWPk7/689.png",
-  "dna": "2a95c746044667d5fbc79a84c396aa36309e56e1",
+  "name": "8Bit Cats #689",
+  "description": "A collection of 8Bit Cats",
+  "image": "ipfs://QmRJWYg2zmuHPwvaBsXE3jt48XTC3nyTJKrDtKffWrute7/689.png",
+  "dna": "fd39ae070d11c48e2344e0539d4321c591e3e011",
   "edition": 689,
-  "date": 1641610335382,
+  "date": 1644783995746,
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "Blue"
+      "trait_type": "Background",
+      "value": "Green",
+      "frequency": "14.39%"
     },
     {
-      "trait_type": "color",
-      "value": "zombie"
+      "trait_type": "Body",
+      "value": "Green",
+      "frequency": "14.51%"
     },
     {
-      "trait_type": "hair",
-      "value": "yellow"
+      "trait_type": "Clothing",
+      "value": "Astronaut",
+      "frequency": "6.10%"
     },
     {
-      "trait_type": "eyes",
-      "value": "bluelight"
+      "trait_type": "Face",
+      "value": "Excited II",
+      "frequency": "10.37%"
     },
     {
-      "trait_type": "glasses",
-      "value": "orange"
+      "trait_type": "Hats",
+      "value": "Sweatband",
+      "frequency": "10.24%"
     }
   ],
-  "compiler": "CryptoMan"
+  "compiler": "8Bit Collection"
 }

@@ -1,31 +1,36 @@
 {
-  "name": "CryptoMan #703",
-  "description": "3.333 Generated CryptoMan",
-  "image": "ipfs://QmeCE2nHW6q3aZ3ybo7qAwpr5KWVqTyLmN7GpXurgDWPk7/703.png",
-  "dna": "fe393efa9d04bcc8566a87a4966149f99e93ba2b",
+  "name": "8Bit Cats #703",
+  "description": "A collection of 8Bit Cats",
+  "image": "ipfs://QmRJWYg2zmuHPwvaBsXE3jt48XTC3nyTJKrDtKffWrute7/703.png",
+  "dna": "9f1233d3ce120c2afc709df5294b326e7eeea399",
   "edition": 703,
-  "date": 1641610337753,
+  "date": 1644783996840,
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "green"
+      "trait_type": "Background",
+      "value": "Night",
+      "frequency": "15.85%"
     },
     {
-      "trait_type": "color",
-      "value": "man"
+      "trait_type": "Body",
+      "value": "Red",
+      "frequency": "11.71%"
     },
     {
-      "trait_type": "hair",
-      "value": "red"
+      "trait_type": "Clothing",
+      "value": "Duck",
+      "frequency": "3.29%"
     },
     {
-      "trait_type": "eyes",
-      "value": "red"
+      "trait_type": "Face",
+      "value": "Relaxed II",
+      "frequency": "15.12%"
     },
     {
-      "trait_type": "glasses",
-      "value": "Green"
+      "trait_type": "Hats",
+      "value": "Watermelon",
+      "frequency": "5.73%"
     }
   ],
-  "compiler": "CryptoMan"
+  "compiler": "8Bit Collection"
 }

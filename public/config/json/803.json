@@ -1,31 +1,36 @@
 {
-  "name": "CryptoMan #803",
-  "description": "3.333 Generated CryptoMan",
-  "image": "ipfs://QmeCE2nHW6q3aZ3ybo7qAwpr5KWVqTyLmN7GpXurgDWPk7/803.png",
-  "dna": "c203d232c1c328782da4ad811c357125fa907269",
+  "name": "8Bit Cats #803",
+  "description": "A collection of 8Bit Cats",
+  "image": "ipfs://QmRJWYg2zmuHPwvaBsXE3jt48XTC3nyTJKrDtKffWrute7/803.png",
+  "dna": "1153a3d5f7837359ec32f4fa853934b3013060b9",
   "edition": 803,
-  "date": 1641610354660,
+  "date": 1644784004688,
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "pink"
+      "trait_type": "Background",
+      "value": "Pink",
+      "frequency": "11.59%"
     },
     {
-      "trait_type": "color",
-      "value": "black"
+      "trait_type": "Body",
+      "value": "Red",
+      "frequency": "11.71%"
     },
     {
-      "trait_type": "hair",
-      "value": "greendark"
+      "trait_type": "Clothing",
+      "value": "King Coat",
+      "frequency": "3.90%"
     },
     {
-      "trait_type": "eyes",
-      "value": "brown"
+      "trait_type": "Face",
+      "value": "Dead",
+      "frequency": "5.00%"
     },
     {
-      "trait_type": "glasses",
-      "value": "none"
+      "trait_type": "Hats",
+      "value": "Apple",
+      "frequency": "6.10%"
     }
   ],
-  "compiler": "CryptoMan"
+  "compiler": "8Bit Collection"
 }

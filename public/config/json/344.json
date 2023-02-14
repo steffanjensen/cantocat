@@ -1,31 +1,36 @@
 {
-  "name": "CryptoMan #344",
-  "description": "3.333 Generated CryptoMan",
-  "image": "ipfs://QmeCE2nHW6q3aZ3ybo7qAwpr5KWVqTyLmN7GpXurgDWPk7/344.png",
-  "dna": "8f3117a6841a754a65217ac443ebdaa226b7b9ca",
+  "name": "8Bit Cats #344",
+  "description": "A collection of 8Bit Cats",
+  "image": "ipfs://QmRJWYg2zmuHPwvaBsXE3jt48XTC3nyTJKrDtKffWrute7/344.png",
+  "dna": "7ad0744308374b36781295b0dba398eb304de907",
   "edition": 344,
-  "date": 1641610276883,
+  "date": 1644783968647,
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "day"
+      "trait_type": "Background",
+      "value": "Skynight",
+      "frequency": "14.02%"
     },
     {
-      "trait_type": "color",
-      "value": "man"
+      "trait_type": "Body",
+      "value": "Green",
+      "frequency": "14.51%"
     },
     {
-      "trait_type": "hair",
-      "value": "green"
+      "trait_type": "Clothing",
+      "value": "Astronaut",
+      "frequency": "6.10%"
     },
     {
-      "trait_type": "eyes",
-      "value": "reddark"
+      "trait_type": "Face",
+      "value": "Cheeky",
+      "frequency": "19.88%"
     },
     {
-      "trait_type": "glasses",
-      "value": "none"
+      "trait_type": "Hats",
+      "value": "Samurai Hat",
+      "frequency": "9.15%"
     }
   ],
-  "compiler": "CryptoMan"
+  "compiler": "8Bit Collection"
 }

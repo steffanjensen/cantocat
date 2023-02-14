@@ -1,31 +1,36 @@
 {
-  "name": "CryptoMan #227",
-  "description": "3.333 Generated CryptoMan",
-  "image": "ipfs://QmeCE2nHW6q3aZ3ybo7qAwpr5KWVqTyLmN7GpXurgDWPk7/227.png",
-  "dna": "e02a24da6a511eb16d2902f346ed280c7e28019a",
+  "name": "8Bit Cats #227",
+  "description": "A collection of 8Bit Cats",
+  "image": "ipfs://QmRJWYg2zmuHPwvaBsXE3jt48XTC3nyTJKrDtKffWrute7/227.png",
+  "dna": "b73c1caab00c255fd39016d2700b541999ec040d",
   "edition": 227,
-  "date": 1641610257030,
+  "date": 1644783959434,
   "attributes": [
     {
-      "trait_type": "background",
-      "value": "Red"
+      "trait_type": "Background",
+      "value": "Orange",
+      "frequency": "8.90%"
     },
     {
-      "trait_type": "color",
-      "value": "man"
+      "trait_type": "Body",
+      "value": "Blue",
+      "frequency": "18.90%"
     },
     {
-      "trait_type": "hair",
-      "value": "blue"
+      "trait_type": "Clothing",
+      "value": "Jacket",
+      "frequency": "7.93%"
     },
     {
-      "trait_type": "eyes",
-      "value": "reddark"
+      "trait_type": "Face",
+      "value": "Excited I",
+      "frequency": "13.05%"
     },
     {
-      "trait_type": "glasses",
-      "value": "orange"
+      "trait_type": "Hats",
+      "value": "Red Cap",
+      "frequency": "6.95%"
     }
   ],
-  "compiler": "CryptoMan"
+  "compiler": "8Bit Collection"
 }

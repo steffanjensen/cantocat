@@ -28,26 +28,13 @@ export const StyledButton = styled.button`
   }
 `;
 
-export const mintButton = styled.button`
-background: #ab91f033;
-border: 2px solid #ececed;
-border-radius: 50px;
-color: var(--white-text-color);
-font-family: Pixellari;
-font-size: 24px;
-height: 58px;
-line-height: 2.45;
-margin-top: 35px;
-transition: .2s;
-width: 270px;
-`;
-
 export const StyledRoundButton = styled.button`
   padding: 10px;
   border-radius: 100%;
   border: none;
   background-color: var(--primary);
   padding: 10px;
+  font-family: Chakra Petch,sans-serif;
   font-weight: bold;
   font-size: 15px;
   color: var(--primary-text);
@@ -160,11 +147,9 @@ function get_all_nfts(){
         return response.json();
       })
       .then(function(myJson) {
-       /* let image_url = "https://ipfs.io/ipfs/" + myJson.image;
-        let image_result = image_url.replace("ipfs://", ""); */
+        let image_url = "https://ipfs.io/ipfs/" + myJson.image;
+        let image_result = image_url.replace("ipfs://", "");
      /*   document.getElementById("output").innerHTML += myJson.name + "<br />"; */
-        let image_url = "/config/cryptoman/" + myJson.image;
-        let image_result = image_url.replace("ipfs://QmeCE2nHW6q3aZ3ybo7qAwpr5KWVqTyLmN7GpXurgDWPk7", "");
         var new_nft = document.getElementById("image");
         new_nft.appendChild(document.createElement('img')).src = image_result;
         sleep(200);
@@ -279,7 +264,6 @@ function get_all_nfts(){
     <s.Screen>
       <s.Container
         flex={1}
-        
         ai={"center"}
         style={{ padding: 24, backgroundColor: "var(--primary)" }}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
@@ -288,13 +272,13 @@ function get_all_nfts(){
           <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
         </a>
         <s.SpacerSmall />
-        <ResponsiveWrapper flex={1} style={{ padding: 10 }} test>
+        <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
             <StyledImg alt={"example"} src={"/config/images/example.gif"} />
           </s.Container>
           <s.SpacerLarge />
           <s.Container
-            flex={1}
+            flex={2}
             jc={"center"}
             ai={"center"}
             style={{
@@ -305,35 +289,16 @@ function get_all_nfts(){
               boxShadow: "0px 5px 11px 2px rgba(0,0,0,0.7)",
             }}
           >
-                             <s.TextTitle
-                       
-              style={{
-                textAlign: "center",
-                fontSize: 20,
-                fontWeight: "bold",
-                color: "var(--accent-text)",
-                
-              }}
-            >
-             
-              Total Minted
-            </s.TextTitle>
             <s.TextTitle
-
               style={{
-        
                 textAlign: "center",
                 fontSize: 50,
                 fontWeight: "bold",
                 color: "var(--accent-text)",
-                
               }}
             >
-             
-              {data.totalSupply}<spaceText> / </spaceText>{CONFIG.MAX_SUPPLY}
+              {data.totalSupply} / {CONFIG.MAX_SUPPLY}
             </s.TextTitle>
-      
- 
             <s.TextDescription
               style={{
                 textAlign: "center",
@@ -352,12 +317,8 @@ function get_all_nfts(){
 
           <s.TextTitle style={{ textAlign: "center", color: "var(--accent-text)" }}>
 
-            
-            
-            
-            
+     Just a Sweetkitten
      </s.TextTitle>
-     
             </span>
             <s.SpacerSmall />
             {Number(data.totalSupply) >= CONFIG.MAX_SUPPLY ? (
@@ -379,20 +340,10 @@ function get_all_nfts(){
               </>
             ) : (
               <>
-
-                <s.TextTitle
-                  style={{ textAlign: "center", color: "#a21010" }}
-                >
-                 Random wallets will get NFTs airdropped to them. 
-
-                </s.TextTitle>
-
-                
-
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  1 CryptoMan ONLY 2 FTM.
+                  1 CANTO CAT ONLY 20 CANTO.
                 </s.TextTitle>
                 <s.SpacerXSmall />
                 <s.TextDescription
@@ -413,7 +364,7 @@ function get_all_nfts(){
                       Connect to the {CONFIG.NETWORK.NAME} network
                     </s.TextDescription>
                     <s.SpacerSmall />
-                    <mintButton
+                    <StyledButton
                       onClick={(e) => {
                         e.preventDefault();
                         dispatch(connect());
@@ -421,12 +372,10 @@ function get_all_nfts(){
                       }}
                     >
                       CONNECT
-                    </mintButton>
-                    
+                    </StyledButton>
                     {blockchain.errorMsg !== "" ? (
                       <>
                         <s.SpacerSmall />
-                        
                         <s.TextDescription
                           style={{
                             textAlign: "center",
@@ -438,7 +387,6 @@ function get_all_nfts(){
                       </>
                     ) : null}
                   </s.Container>
-                  
                 ) : (
                   <>
                     <s.TextDescription
@@ -451,7 +399,7 @@ function get_all_nfts(){
                     </s.TextDescription>
                     <s.SpacerMedium />
                     <s.Container ai={"center"} jc={"center"} fd={"row"}>
-                      <circleButton
+                      <StyledRoundButton
                         style={{ lineHeight: 0.4 }}
                         disabled={claimingNft ? 1 : 0}
                         onClick={(e) => {
@@ -460,7 +408,7 @@ function get_all_nfts(){
                         }}
                       >
                         -
-                      </circleButton>
+                      </StyledRoundButton>
                       <s.SpacerMedium />
                       <s.TextDescription
                         style={{
@@ -471,7 +419,7 @@ function get_all_nfts(){
                         {mintAmount}
                       </s.TextDescription>
                       <s.SpacerMedium />
-                      <circleButtonleft
+                      <StyledRoundButton
                         disabled={claimingNft ? 1 : 0}
                         onClick={(e) => {
                           e.preventDefault();
@@ -479,11 +427,11 @@ function get_all_nfts(){
                         }}
                       >
                         +
-                      </circleButtonleft>
+                      </StyledRoundButton>
                     </s.Container>
                     <s.SpacerSmall />
                     <s.Container ai={"center"} jc={"center"} fd={"row"}>
-                      <mintButton
+                      <StyledButton
                         disabled={claimingNft ? 1 : 0}
                         onClick={(e) => {
                           e.preventDefault();
@@ -492,46 +440,13 @@ function get_all_nfts(){
                         }}
                       >
                         {claimingNft ? "BUSY" : "BUY"}
-                      </mintButton>
+                      </StyledButton>
                     </s.Container>
                   </>
                 )}
               </>
             )}
-            
             <s.SpacerMedium />
-            
-
-                           <s.TextDescription
-                      style={{
-                        textAlign: "center",
-                        color: "var(--accent-text)",
-                      }}
-                    >
-
-
-
-                        <h3>View Your Collection:</h3>
-                                            <viewCollection
-                      onClick={(e) => {
-                        e.preventDefault();
-                        dispatch(connect());
-                        get_all_nfts();
-                      }}
-                    >
-                      VIEW
-                    </viewCollection><br></br>
-                    Remember to click "connect" first
-
-<span id="output"></span>
-<span id="image"></span>
-
-                    </s.TextDescription>
-
-
-
-
-
           </s.Container>
           <s.SpacerLarge />
           <s.Container flex={1} jc={"center"} ai={"center"}>
@@ -550,7 +465,22 @@ function get_all_nfts(){
               color: "var(--primary-text)",
             }}
           >
+                        <h3>Your Collection:</h3>
+                                            <StyledButton
+                      onClick={(e) => {
+                        e.preventDefault();
+                        dispatch(connect());
+                        get_all_nfts();
+                      }}
+                    >
+                      Click Here To See Your Collection
+                    </StyledButton><br></br>
+                    Remember to click "connect" first
+<p>
+<span id="output"></span>
+<span id="image"></span>
 
+</p>
 <p></p>
             Please make sure you are connected to the right network (
             {CONFIG.NETWORK.NAME} Mainnet) and the correct address. Please note:
