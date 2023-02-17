@@ -343,7 +343,7 @@ function get_all_nfts(){
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  1 CANTO CAT ONLY 20 CANTO.
+                  1 CANTO CAT ONLY 1 CANTO.
                 </s.TextTitle>
                 <s.SpacerXSmall />
                 <s.TextDescription
