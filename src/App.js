@@ -102,7 +102,7 @@ function App() {
   const [claimingNft, setClaimingNft] = useState(false);
   const [NFTS, setNFTs] = useState([]);
   const [feedback, setFeedback] = useState(`Click mint to get your NFT.`);
-  const [mintAmount, setMintAmount] = useState(3);
+  const [mintAmount, setMintAmount] = useState(1);
   const [CONFIG, SET_CONFIG] = useState({
     CONTRACT_ADDRESS: "",
     SCAN_LINK: "",
@@ -269,13 +269,11 @@ function get_all_nfts(){
         style={{ padding: 24, backgroundColor: "var(--primary)" }}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
       >
-        <a href={CONFIG.MARKETPLACE_LINK}>
           <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
-        </a>
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
-            <StyledImg alt={"example"} src={"/config/images/example.gif"} />
+            <StyledImg alt={"example"} src={"/config/images/example.webp"} />
           </s.Container>
           <s.SpacerLarge />
           <s.Container
@@ -344,7 +342,7 @@ function get_all_nfts(){
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  1 CANTO CAT ONLY 50 CANTO.
+                  1 STEFFAN NFT ONLY 1 BNB.
                 </s.TextTitle>
                 <s.SpacerXSmall />
                 <s.TextDescription
@@ -453,7 +451,7 @@ function get_all_nfts(){
           <s.Container flex={1} jc={"center"} ai={"center"}>
             <StyledImg
               alt={"example"}
-              src={"/config/images/example.gif"}
+              src={"/config/images/example.webp"}
               style={{ transform: "scaleX(-1)" }}
             />
           </s.Container>
