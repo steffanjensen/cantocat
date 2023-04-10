@@ -1,16 +1,16 @@
 {
-  "CONTRACT_ADDRESS": "0x8c3065B0e5D8688C9ABF21098d5B3Fbf12878A6e",
-  "SCAN_LINK": "https://bscscan.com/token/0x8c3065b0e5d8688c9abf21098d5b3fbf12878a6e",
+  "CONTRACT_ADDRESS": "0xC65C2DaB87f870592880978bEe5648118232900E",
+  "SCAN_LINK": "https://evm.explorer.canto.io/address/0xC65C2DaB87f870592880978bEe5648118232900E",
   "NETWORK": {
-    "NAME": "Binance Smart Chain Mainnet",
-    "SYMBOL": "BNB",
-    "ID": 56
+    "NAME": "Canto",
+    "SYMBOL": "CANTO",
+    "ID": 7700
   },
-  "NFT_NAME": "Steffan NFT",
-  "SYMBOL": "SJ",
-  "MAX_SUPPLY": 10000,
-  "WEI_COST": 1000000000000000000,
-  "DISPLAY_COST": 1,
+  "NFT_NAME": "Canto Cat",
+  "SYMBOL": "CCNFT",
+  "MAX_SUPPLY": 820,
+  "WEI_COST": 15000000000000000000,
+  "DISPLAY_COST": 15,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "nftkey",
   "MARKETPLACE_LINK": "https://nftkey.app/collections/cryptoman",
