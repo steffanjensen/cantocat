@@ -273,7 +273,7 @@ function get_all_nfts(){
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
-            <StyledImg alt={"example"} src={"/config/images/example.webp"} />
+            <StyledImg alt={"example"} src={"/config/images/example.gif"} />
           </s.Container>
           <s.SpacerLarge />
           <s.Container
@@ -342,7 +342,7 @@ function get_all_nfts(){
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  1 STEFFAN NFT ONLY 1 BNB.
+                  1 CANTO CAT ONLY 15 CANTO.
                 </s.TextTitle>
                 <s.SpacerXSmall />
                 <s.TextDescription
@@ -451,7 +451,7 @@ function get_all_nfts(){
           <s.Container flex={1} jc={"center"} ai={"center"}>
             <StyledImg
               alt={"example"}
-              src={"/config/images/example.webp"}
+              src={"/config/images/example.gif"}
               style={{ transform: "scaleX(-1)" }}
             />
           </s.Container>
